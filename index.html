@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram Photo B</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light justify-content-around">
+    <div class="d-flex align-items-center">
+      <i class="fab fa-instagram" style="font-size:36px"></i>
+      <h2>
+        Instagram
+      </h2>
+    </div>
+    <div class="d-flex">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Create a new post
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
+              <div class="d-flex">
+                <button type="button" class="btn btn-light"> <i class="fas fa-camera"></i></button>
+                <button type="button" class="btn btn-light"> <i class="fal fa-map-marker-alt"></i></button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-gear"></i>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Log out</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="nav nav-pills  justify-content-center  mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+        <i class="fa-solid fa-square"></i> </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+        <i class="fa-solid fa-square"></i></button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+      tabindex="0">
+      <div class="container text-center">
+        <div class="row gy-1 gx-1">
+          <div class="col-md-4">
+            <img
+              src="https://www.labilirrubina.com/wp-content/uploads/2022/03/shutterstock173270117-ec20f0fb-focus-0-0-400-300-J0YQB2.jpeg"
+              class alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://i0.wp.com/soytecno.com/wp-content/uploads/2018/09/puppy-1903313_1920-e1537446325722.jpg?resize=400%2C300&ssl=1"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="http://cdn.shopify.com/s/files/1/0538/6354/7062/articles/f6afc0480dd4e3ec58fc8da7589d1ceb.jpg?v=1620136835"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://openexpoeurope.com/wp-content/uploads/2020/06/portada_alex-arenols-articulo-junio-400x300.jpg"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://elempresario.mx/sites/default/files/imagecache/nota_completa/4_formas_ahuyentar_clientes_marca.jpg"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://elempresario.mx/sites/default/files/imagecache/nota_completa/claves_mantener_clientes_despues_prmociones.jpg"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="http://www.caracasdigital.com/images/noticias/Motorola_Bogota3.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://bibliotecadeinvestigaciones.files.wordpress.com/2011/02/software-de-aplicacic3b1on.jpg?w=470"
+              alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="https://mundoerp.com/wp-content/uploads/2013/04/leyes-murphy.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <div class="body-page" style="background-color: whitesmoke;">
+          <div class="body-post" style="background-color:white;">
+            <div class="header-post d-flex justify-content-between align-items-center" style="background-color:white;">
+              <div class="d-flex align-items-center">
+                <div>
+                  <h2>My firts photo</h2>
+                </div>
+              </div>
+              <div>
+                <p>1/3</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="https://www.labilirrubina.com/wp-content/uploads/2022/03/shutterstock173270117-ec20f0fb-focus-0-0-400-300-J0YQB2.jpeg"
+                alt="">
+            </div>
+            <div class="footer" style="background-color:white;">
+              <div class="parrafo">
+                <div>
+                  <p>This is my first photo on the feed, This is a multi line comment for testing <br>
+                    purposes. I am learning to code with #Breathecode <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="body-post" style="background-color:white;">
+            <div class="header-post d-flex justify-content-between align-items-center" style="background-color:white;">
+              <div class="d-flex align-items-center">
+                <div>
+                  <h2>Some cute thing</h2>
+                </div>
+              </div>
+              <div>
+                <p>2/3</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="https://i0.wp.com/soytecno.com/wp-content/uploads/2018/09/puppy-1903313_1920-e1537446325722.jpg?resize=400%2C300&ssl=1"
+                alt="">
+            </div>
+            <div class="footer" style="background-color:white;">
+              <div class="parrafo">
+                <div>
+                  <p>The internet approves this cute dog...#Breathecode
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="body-post" style="background-color:white;">
+            <div class="header-post d-flex justify-content-between align-items-center" style="background-color:white;">
+              <div class="d-flex align-items-center">
+                <div>
+                  <h2>And of course... food!</h2>
+                </div>
+              </div>
+              <div>
+                <p>3/3</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="http://cdn.shopify.com/s/files/1/0538/6354/7062/articles/f6afc0480dd4e3ec58fc8da7589d1ceb.jpg?v=1620136835"
+                alt="">
+            </div>
+            <div class="footer" style="background-color:white;">
+              <div class="parrafo">
+                <div>
+                  <p>Because no photo feed is cool without some food on it!#Breathecode
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
